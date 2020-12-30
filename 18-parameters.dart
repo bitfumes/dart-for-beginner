@@ -6,5 +6,5 @@ fullname({
 }) =>
     "${fname} ${lname}";
 main() {
-  print(fullname(lname: 'Shrivastava'));
+  print(fullname(fname: 'Sarthak'));
 }
