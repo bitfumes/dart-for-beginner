@@ -1,18 +1,16 @@
 main() {
   var mymailer = new Mailchimp();
   mymailer.connect();
+  mymailer.send();
 }
 
 class Mailchimp extends Mail {
-  void send() {}
-
   void connect() {
     print('connectin with mailchimp');
   }
 }
 
 class ConvertKit extends Mail {
-  void send() {}
   void connect() {
     print('connecting with convertkit');
   }
